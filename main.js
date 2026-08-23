@@ -25,10 +25,6 @@ const producto2 = new Producto("Cartera Boho", 80000, "Bags", 5);
 const producto3 = new Producto("Billetera tipo sobre",30000, "Accesorios", 8);
 const producto4 = new Producto("Top Preta", 55000, "Indumentaria", 3);
 
-const productos = [producto1, producto2, producto3, producto4];
-
-console.log(productos);
-
 producto1.mostrarInfo();
 console.log("Precio con IVA: $" + producto1.precioConIva());
 
